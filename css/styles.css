@@ -1,0 +1,15 @@
+.big-gap {
+  height: 1200px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  transition: all 1.5s;
+  opacity: 0;
+}
+.box.visible {
+  background-color: blue; 
+  width: 200px;
+  opacity: 1;
+}
